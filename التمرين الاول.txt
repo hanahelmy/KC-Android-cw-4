@@ -1,0 +1,38 @@
+
+public class Main
+{
+  public static void main (String[]args)
+  {
+    System.out.println ("your grade is " + totalgrade (95, 92));
+    temperature(23);
+    
+    for (int a=1;a<=10;a++)
+    {
+        System.out.println(a);    
+    } 
+  }
+
+
+  public static int totalgrade (int NO1, int NO2)
+  {
+    int grade = NO1 + NO2;
+    return grade;
+  }
+
+  public static void temperature (int T)
+  {
+    int temp = T;
+    
+    if (temp>=23)
+    { 
+      System.out.println("it's Hot out there🥵.");    
+
+    }
+    else
+    {
+      System.out.println("it's cold out there🥶.");    
+
+    }
+
+  }
+}
